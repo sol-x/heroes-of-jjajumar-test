@@ -1,0 +1,26 @@
+{
+  "name": "heroes-of-jjajumar-test",
+  "version": "1.0.0",
+  "description": "test for configuration engineers",
+  "author": "insidewhy <github@chilon.net>",
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sol-x/heroes-of-jjajumar-test.git"
+  },
+  "keywords": [
+    "sol-x",
+    "test"
+  ],
+  "main": "dist/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
